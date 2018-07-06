@@ -14,4 +14,4 @@ sum_v = (rose_v * rose_c) + (sun_v * sun_c) + (tulip_v * tulip_c)
 payment = sum_v * rate
 # 結果を表示
 print("買い物の合計は", sum_v, "円" )
-print("割引してもらうと", payment, "円")
+print("割引してもらうと",sum_v - payment, "円")
