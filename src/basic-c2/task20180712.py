@@ -8,7 +8,7 @@ for x in range(1, 10):
 print(str_line)
 # 線
 str_line = ""
-str_line = str_line +  "--" "+" + "-" * 27
+str_line = str_line +  "--" + "+" + "-" * 27
 print(str_line)
 # 計算内容
 for x in range(1, 10):
