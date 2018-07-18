@@ -2,7 +2,7 @@ import random
 # リスト
 fruits = ["Apple", "Banana", "Mango", "Orange"]
 collar = ["red", "yellow", "green", "pink"]
-condition = ["良い", "普通", "悪い"]
+condition = ["良いです", "普通です", "悪いです"]
 # ランダム
 a = random.choice(fruits)
 b = random.choice(collar)
