@@ -5,11 +5,16 @@ main = {
 option = {
     "LowFatMilk":0, "NonFatMilk":0, "SoyMilk":50, "DeepCream":60, "WhipCream":70, "CaramelShrup":60, "ChocoSource":0, "DeCafe":50 }
 
-for name, price in main.items():
+menu_v = []
+menu_f = []
 
-    s = "注文内容は{0}金額は{1}円です。".format(name, price)
-    print(s)
-order_content = []
-# メインメニュー選択
-main_order = int(input("メインメニューを選んでください。"))
-# まだ未完成です。
+while True:
+    user_main = input("メインメニューを入力してください")
+    if user_main in main:
+        menu_v.append(user_main)
+        print("メインメニューを承りました")
+        break
+    elif user_main == 'q' or user_main == '':
+        print("注文をキャンセルします")
+    else:
+        print("選択したメニューはありません")
